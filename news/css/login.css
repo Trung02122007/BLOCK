@@ -1,0 +1,80 @@
+/* Login page */
+.login-box {
+  max-width: 600px;
+  margin: 60px auto;
+}
+
+.login-title {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.login-input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+.login-input:focus {
+  outline: none;
+  border-color: black;
+}
+
+#message{ color: #bb1919; }
+
+/* Sign in + create account share the same size */
+.login-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.login-btn:hover { background: #333; }
+
+/* Remember me left, forgot password right */
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0 24px;
+  font-size: 14px;
+}
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.remember:hover { text-decoration: underline; }
+
+.remember input {
+  width: 16px;
+  height: 16px;
+  accent-color: black;
+}
+.forgot {
+  color: black;
+  text-decoration: none;
+}
+.forgot:hover { text-decoration: underline; }
+
+/* Small centered brand text */
+.login-brand {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: black;
+}

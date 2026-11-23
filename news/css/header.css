@@ -1,0 +1,121 @@
+/* Header */
+header {
+  background: white;
+  color: black;
+  padding: 16px 0;
+  border-bottom: 1px solid #ddd;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* flex: 1 on both sides keeps the logo truly centered */
+.header-left,
+.header-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.header-right {
+  justify-content: flex-end;
+}
+
+.logo {
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  transition: 0.3s;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.container i {
+  font-size: 170%;
+  cursor: pointer;
+}
+
+.btn {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+.btn:hover {
+  background: #ececec;
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: none;
+  border: none;
+  color: black;
+  padding: 8px 12px;
+}
+.icon-btn:hover {
+  background: #ececec;
+}
+
+.blacken {
+  background-color: black;
+  color: white;
+  padding: 8px;
+}
+
+.blacken:hover{ background-color: #333; }
+
+/* Header user */
+.header-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  text-decoration: none;
+}
+.header-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.header-name {
+  font-size: 15px;
+}
+.header-user:hover .header-name { text-decoration: underline; }
+
+/* Topic Navigator*/
+/* Topic nav */
+.topic-nav {
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+.topic-nav .container {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+.topic {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 14px;
+}
+.topic:hover {
+  background: #ececec;
+}
